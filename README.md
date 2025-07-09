@@ -26,7 +26,23 @@ sudo pacman -S stow
 brew install stow
 ```
 
-## Directory structure (template)
+## Using Stow
+
+To symlink your dotfiles into place, just use `stow` followed by the directory name. For example:
+
+```bash
+stow .config/nvim
+stow .config/wezterm
+stow .config/fastfetch
+```
+
+If needed, you can undo a `stow` operation with:
+
+```bash
+stow -D .config/nvim
+```
+
+## Directory structure
 
 ```
 ~/.dotfiles

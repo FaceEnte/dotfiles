@@ -28,7 +28,9 @@ brew install stow
 
 ## Using Stow
 
-To symlink your dotfiles into place, just use `stow` followed by the directory name. For example:
+Stow works by creating symlinks from your dotfiles repo into your home directory.
+
+### To link a config directory
 
 ```bash
 stow .config/nvim
@@ -36,10 +38,35 @@ stow .config/wezterm
 stow .config/fastfetch
 ```
 
-If needed, you can undo a `stow` operation with:
+> ⚠️**Warning**: 'stow -D' removes symlinks, not actual files.
+> It only unlinks the dotfiles Stow created. You real config files will remain untouched.
+> But make sure you're not relying on the symlinks before removing them.
+
+### To remove symlinks (unstow)
 
 ```bash
 stow -D .config/nvim
+```
+
+### Dry run (preview changes)
+
+```bash
+stow -nv .config/nvim
+```
+
+### Restow (refresh links after making changes)
+
+```bash
+stow -R .config/nvim
+```
+
+> ⚠️**Warning**: Unstowing everything will remove all symlinks created by Stow.
+> Make sure you're not deleting anything important. This won't delete your actual config folders, just the symlinks.
+
+### Unstow everything
+
+```bash
+stow -D */*
 ```
 
 ## Directory structure

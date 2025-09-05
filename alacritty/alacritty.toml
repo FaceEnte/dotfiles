@@ -2,7 +2,12 @@
 import = [
     "themes/catppuccin-mocha.toml"
 ]
+working_directory = "None"
 live_config_reload = true
+ipc_socket = true
+
+[env]
+
 
 [window]
 dimensions = { columns = 220, lines = 70 }
@@ -10,18 +15,45 @@ position = { x = 350, y = 250 }
 padding = { x = 10, y = 10 }
 dynamic_padding = true
 decorations = "Buttonless" # Full | None
-opacity = 0.8
+opacity = 0.5
 blur = true
-# startup_mode = "SimpleFullscreen"
+startup_mode = "SimpleFullscreen"
+title = "Alacritty"
 dynamic_title = true
+class = { instance = "Alacritty", general = "Alacritty" }
+decorations_theme_variant = "Dark"
+resize_increments = false
+option_as_alt = "None"
+level = "Normal"
+
+[scrolling]
+history = 10000
+multiplier = 3
 
 [font]
 normal = { family = "Liga SFMono Nerd Font", style = "Regular" }
 bold = { family = "Liga SFMono Nerd Font", style = "Bold" }
 italic = { family = "Liga SFMono Nerd Font", style = "Italic" }
+bold_italic = { family = "Liga SFMono Nerd Font", style = "Bold Italic" }
+size = 11.25
+offset = { x = 0, y = 0 }
+glyph_offset = { x = 0, y = 0 }
+builtin_box_drawing = true
+
+[bell]
+animation = "Linear"
+duration = 0
+color = "#ffffff"
+command = "None"
 
 [selection]
+semantic_escape_chars = ",│`|:\"' ()[]{}<>\t"
 save_to_clipboard = true
 
 [cursor]
 style = { shape = "Beam", blinking = "On" }
+vi_mode_style = { shape = "Beam", blinking = "On" }
+blink_interval = 750
+blink_timeout = 0
+unfocused_hollow = true
+thickness = 0.2

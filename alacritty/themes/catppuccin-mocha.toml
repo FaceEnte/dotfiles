@@ -3,8 +3,8 @@ foreground = "#cdd6f4"
 background = "#1e1e2e"
 
 [colors.cursor]
-text = "#11111b"
-cursor = "#f5e0dc"
+#text = "#11111b"
+#cursor = "#f5e0dc"
 
 [colors.selection]
 text = "#cdd6f4"

@@ -8,3 +8,4 @@ A collection of my configuration files.
 - nvim
 - wezterm
 - tmux
+- alacritty

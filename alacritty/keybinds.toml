@@ -1,0 +1,4 @@
+[keyboard]
+bindings = [
+    { key = "A", mods = "Control|Shift", action = "ToggleSimpleFullscreen" }
+]

@@ -1,6 +1,7 @@
 [general]
 import = [
-    "themes/catppuccin-mocha.toml"
+    "themes/catppuccin-mocha.toml",
+    "keybinds.toml"
 ]
 working_directory = "None"
 live_config_reload = true
@@ -14,10 +15,10 @@ dimensions = { columns = 220, lines = 70 }
 position = { x = 350, y = 250 }
 padding = { x = 10, y = 10 }
 dynamic_padding = true
-decorations = "Buttonless" # Full | None
+decorations = "Full" # Full | None | Buttonless
 opacity = 0.5
 blur = true
-startup_mode = "SimpleFullscreen"
+startup_mode = "Windowed" # SimpleFullscreen | Windowed
 title = "Alacritty"
 dynamic_title = true
 class = { instance = "Alacritty", general = "Alacritty" }

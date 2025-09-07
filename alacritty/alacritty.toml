@@ -1,5 +1,6 @@
 [general]
 import = [
+    "themes/custom-config.toml",
     "themes/catppuccin-mocha.toml",
     "keybinds.toml"
 ]
@@ -16,7 +17,7 @@ position = { x = 350, y = 250 }
 padding = { x = 10, y = 10 }
 dynamic_padding = true
 decorations = "Full" # Full | None | Buttonless
-opacity = 0.5
+opacity = 0.7
 blur = true
 startup_mode = "Windowed" # SimpleFullscreen | Windowed
 title = "Alacritty"

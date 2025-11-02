@@ -17,7 +17,7 @@ position = { x = 350, y = 250 }
 padding = { x = 10, y = 10 }
 dynamic_padding = true
 decorations = "Full" # Full | None | Buttonless
-opacity = 0.7
+opacity = 0.85
 blur = true
 startup_mode = "Windowed" # SimpleFullscreen | Windowed
 title = "Alacritty"

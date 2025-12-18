@@ -14,12 +14,12 @@
         // Title
         {
             "type": "title",
-            "format": "{#1}╭───────────── {#}{user-name-colored}"
+            "format": "{#1}╭───────────── {#cyan}{user-name}"
         },
         // System Information
         {
             "type": "custom",
-            "format": "{#1}│ {#magenta}System Information"
+            "format": "{#1}│ {#yellow}System Information"
         },
         {
             "type": "os",
@@ -86,7 +86,7 @@
         // Hardware Information
         {
             "type": "custom",
-            "format": "{#1}│ {#cyan}Hardware Information"
+            "format": "{#1}│ {#magenta}Hardware Information"
         },
         {
             "type": "cpu",

@@ -424,6 +424,12 @@
         "button": true,
     },
 
+    "notification_panel": {
+        "button": false,
+        "default_width": 240,
+        "dock": "right",
+    },
+
     "git_panel": {
         "button": true,
         "dock": "left",

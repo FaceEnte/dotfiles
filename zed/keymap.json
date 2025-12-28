@@ -1,0 +1,33 @@
+// zed keymap
+//
+// author = byteme
+
+[
+    {
+        "context": "Workspace",
+        "bindings": {
+            // "shift shift": "file_finder::Toggle"
+        },
+    },
+    {
+        "context": "Editor && vim_mode == insert",
+        "bindings": {
+            // "j k": "vim::NormalBefore"
+        },
+    },
+    {
+        "bindings": {
+            "cmd-2": "git_panel::ToggleFocus",
+        },
+    },
+    {
+        "bindings": {
+            "cmd-3": "terminal_panel::Toggle",
+        },
+    },
+    {
+        "bindings": {
+            "cmd-4": "debug_panel::ToggleFocus",
+        },
+    },
+]

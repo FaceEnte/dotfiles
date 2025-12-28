@@ -74,7 +74,7 @@
     "restore_on_startup": "none",
     "close_on_file_delete": true,
     "when_closing_with_no_tabs": "platform_default",
-    "on_last_window_closed": "platform_default",
+    "on_last_window_closed": "quit_app",
     "window_decorations": "client",
     "use_system_path_prompts": true,
     "use_system_prompts": true,

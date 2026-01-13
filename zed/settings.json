@@ -25,7 +25,7 @@
         "calt": false,
     },
     "buffer_font_fallbacks": [],
-    "buffer_font_size": 14,
+    "buffer_font_size": 13,
     "buffer_font_weight": 300,
     "buffer_line_height": {
         "custom": 1.4,
@@ -267,7 +267,7 @@
     "remove_trailing_whitespace_on_save": true,
     "resize_all_panels_in_dock": ["left"],
     "restore_on_file_reopen": true,
-    "restore_on_startup": null,
+    "restore_on_startup": "none",
     "scroll_beyond_last_line": "vertical_scroll_margin",
     "scroll_sensitivity": 1.0,
     "fast_scroll_sensitivity": 4.0,
@@ -386,7 +386,7 @@
         "dock": "left",
         "entry_spacing": "standard",
         "file_icons": true,
-        "folder_icons": true,
+        "folder_icons": false,
         "git_status": true,
         "indent_size": 20,
         "auto_reveal_entries": true,
@@ -514,7 +514,7 @@
         },
 
         "LaTeX": {
-            "tab_size": 4,
+            "tab_size": 2,
         },
     },
 }
